@@ -29,6 +29,5 @@
 -keep class okhttp3.** { *; }
 -keep interface okhttp3.** { *; }
 -dontwarn okhttp3.**
--keep class com.amazic.ads.** { *; }
 -keep class retrofit2.**{ *; }
 -keep class com.slaviboy.colorpicker.** { *; }
