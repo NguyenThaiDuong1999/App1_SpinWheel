@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="cardview_compat_inset_shadow">1.0dip</dimen>
+    <dimen name="cardview_default_elevation">2.0dip</dimen>
+    <dimen name="cardview_default_radius">2.0dip</dimen>
+
+    <dimen name="color_item_large">64.0dip</dimen>
+    <dimen name="color_item_margins_large">8.0dip</dimen>
+    <dimen name="color_item_margins_small">4.0dip</dimen>
+    <dimen name="color_item_selected_check_margins">8.0dip</dimen>
+    <dimen name="color_item_small">48.0dip</dimen>
+    <dimen name="color_preference_color_view_size">32.0dip</dimen>
+    <dimen name="color_preference_disabled_outline_size">2.0dip</dimen>
+
+    <dimen name="subtitle_corner_radius">2.0dip</dimen>
+    <dimen name="subtitle_outline_width">2.0dip</dimen>
+    <dimen name="subtitle_shadow_offset">2.0dip</dimen>
+    <dimen name="subtitle_shadow_radius">2.0dip</dimen>
+
+</resources>

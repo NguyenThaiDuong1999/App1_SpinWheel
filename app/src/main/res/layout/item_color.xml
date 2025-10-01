@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item"
+    android:layout_width="@dimen/_22sdp"
+    android:layout_height="@dimen/_22sdp"
+    android:layout_marginEnd="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_10sdp"
+    android:background="@drawable/bg_item_color_select">
+
+    <TextView
+        android:id="@+id/tv_color"
+        android:layout_width="@dimen/_17sdp"
+        android:layout_height="@dimen/_17sdp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_color_circle_dialog_pick_color" />
+</RelativeLayout>

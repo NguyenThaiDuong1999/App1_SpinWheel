@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>ads_admob_inter_splash</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_inter_intro</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_app_open_on_resume</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_native_exit</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_banner_all</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_inter_predefined</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_inter_custom</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_native_home</key>
+        <value></value>
+    </entry>
+
+    <entry>
+        <key>ads_admob_reward_predefined</key>
+        <value></value>
+    </entry>
+
+
+
+    <entry>
+        <key>ads_admob_reward_custom</key>
+        <value></value>
+    </entry>
+
+</defaultsMap>

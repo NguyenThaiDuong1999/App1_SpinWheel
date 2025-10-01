@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relay_language"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_12sdp"
+    android:background="@drawable/border_item_language"
+    android:paddingVertical="@dimen/_10sdp"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_8sdp">
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="@dimen/_22sdp"
+        android:layout_height="@dimen/_22sdp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_english"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/_9sdp"
+        android:layout_toEndOf="@id/img_avatar"
+        android:fontFamily="@font/linotte_semi_bold"
+        android:text="English"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp" />
+
+    <RadioButton
+        android:id="@+id/rb_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:visibility="gone" />
+</RelativeLayout>

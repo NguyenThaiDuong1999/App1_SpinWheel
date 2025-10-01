@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layoutContent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1.0">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.9"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/imgBack"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_back_item"
+                        app:tint="@color/color_result"/>
+
+                    <com.random.lucky.spin.wheel.randompicker.custom_view.MagicTextView
+                        android:id="@+id/toolbar_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/spin_to_decide"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColor="@color/color_result"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:outerShadowColor="#2c000000"
+                        app:outerShadowDx="6.0dip"
+                        app:outerShadowDy="6.0dip"
+                        app:outerShadowRadius="1.0dip" />
+
+
+                    <ImageView
+                        android:id="@+id/img_home"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_home_detail_spin"
+                        app:tint="@color/color_result"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.3"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <RelativeLayout
+                                android:id="@+id/layoutTop"
+                                android:layout_width="fill_parent"
+                                android:layout_height="50.0dip">
+
+                                <com.random.lucky.spin.wheel.randompicker.custom_view.OutlineTextView
+                                    android:id="@+id/txtWinner"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:ellipsize="end"
+                                    android:fontFamily="@font/linotte_regular"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:padding="10.0dip"
+                                    android:text=" "
+                                    android:textAppearance="?android:textAppearanceLarge"
+                                    android:textColor="#fff6ef3c"
+                                    android:textSize="18.0sp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/layoutBottom"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_below="@+id/layoutTop"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginStart="20.0dip"
+                                android:layout_marginTop="20.0dip"
+                                android:layout_marginEnd="20.0dip"
+                                android:layout_marginBottom="20.0dip">
+
+                                <View
+                                    android:id="@+id/viewWheel"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_marginStart="22dp"
+                                    android:layout_marginTop="20.0dip"
+                                    android:layout_marginEnd="20.0dip"
+                                    android:layout_marginBottom="20.0dip"
+                                    android:rotation="270.0" />
+
+                                <View
+                                    android:id="@+id/viewOverlay"
+                                    android:layout_width="46.0dip"
+                                    android:layout_height="45.0dip"
+                                    android:layout_alignTop="@+id/viewWheel"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_marginStart="158.0dip"
+                                    android:layout_marginTop="-4.0dip"
+                                    android:layout_marginEnd="10.0dip"
+                                    android:rotation="180.0" />
+                            </RelativeLayout>
+
+                            <ImageView
+                                android:id="@+id/overlapImage"
+                                android:layout_width="45.0dip"
+                                android:layout_height="45.0dip"
+                                android:layout_above="@+id/layoutBottom"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginBottom="-70.0dip"
+                                android:adjustViewBounds="true"
+                                android:src="@drawable/ic_choose"
+                                app:tint="@color/color_result"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginHorizontal="@dimen/_50sdp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/iv_rate"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_rate_spin" />
+
+                            <ImageView
+                                android:id="@+id/iv_share"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_share_spin"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/iv_edit"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:src="@drawable/ic_edit_spin" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llNative"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_5sdp"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+                            <FrameLayout
+                                android:id="@+id/fr_ads"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="3dp"
+                                android:orientation="vertical">
+
+                            </FrameLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

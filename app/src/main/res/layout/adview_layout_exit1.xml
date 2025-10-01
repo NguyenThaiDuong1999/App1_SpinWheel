@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1.0">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1.0">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.8"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.Toolbar
+                            android:id="@+id/anim_toolbar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:theme="@style/Mytheme" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.2"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:weightSum="1.0">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:weightSum="1.0">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.55"
+                                android:gravity="center">
+
+                                <com.random.lucky.spin.wheel.randompicker.custom_view.MagicTextView xmlns:qwerjk="http://schemas.android.com/apk/res/com.qwerjk.better_text"
+                                    android:id="@+id/txtExit"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/showgs"
+                                    android:gravity="center"
+                                    android:singleLine="true"
+                                    android:text="EXIT ?"
+                                    android:textColor="#ffffffff"
+                                    android:textSize="30.0sp"
+                                    app:outerShadowColor="#2c000000"
+                                    app:outerShadowDx="4.0dip"
+                                    app:outerShadowDy="4.0dip"
+                                    app:outerShadowRadius="1.0dip" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.45"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <com.random.lucky.spin.wheel.randompicker.custom_view.MagicTextView xmlns:qwerjk="http://schemas.android.com/apk/res/com.qwerjk.better_text"
+                                    android:id="@+id/txtMessage1"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/showgs"
+                                    android:gravity="center"
+                                    android:singleLine="true"
+                                    android:text="Do You Really Want"
+                                    android:textColor="#ffffffff"
+                                    android:textSize="20.0sp"
+                                    app:outerShadowColor="#2c000000"
+                                    app:outerShadowDx="4.0dip"
+                                    app:outerShadowDy="4.0dip"
+                                    app:outerShadowRadius="1.0dip" />
+
+                                <com.random.lucky.spin.wheel.randompicker.custom_view.MagicTextView xmlns:qwerjk="http://schemas.android.com/apk/res/com.qwerjk.better_text"
+                                    android:id="@+id/txtMessage2"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/showgs"
+                                    android:gravity="center"
+                                    android:singleLine="true"
+                                    android:text="To Quit?"
+                                    android:textColor="#ffffffff"
+                                    android:textSize="20.0sp"
+                                    app:outerShadowColor="#2c000000"
+                                    app:outerShadowDx="4.0dip"
+                                    app:outerShadowDy="4.0dip"
+                                    app:outerShadowRadius="1.0dip" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.6"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:id="@+id/btnno"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="10.0dip"
+                                android:layout_weight="0.5"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="10.0dip"
+
+                                    android:gravity="center">
+
+                                    <com.random.lucky.spin.wheel.randompicker.custom_view.MagicTextView xmlns:qwerjk="http://schemas.android.com/apk/res/com.qwerjk.better_text"
+                                        android:id="@+id/txtNo"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/showgs"
+                                        android:gravity="center"
+                                        android:singleLine="true"
+                                        android:text="No"
+                                        android:textColor="#ffffffff"
+                                        android:textSize="20.0sp"
+                                        app:outerShadowColor="#2c000000"
+                                        app:outerShadowDx="6.0dip"
+                                        app:outerShadowDy="6.0dip"
+                                        app:outerShadowRadius="1.0dip" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/btnyes"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_gravity="center"
+                                android:layout_margin="10.0dip"
+                                android:layout_weight="0.5"
+                                android:gravity="center">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="10.0dip"
+
+                                    android:gravity="center">
+
+                                    <com.random.lucky.spin.wheel.randompicker.custom_view.MagicTextView xmlns:qwerjk="http://schemas.android.com/apk/res/com.qwerjk.better_text"
+                                        android:id="@+id/txtYes"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:fontFamily="@font/showgs"
+                                        android:gravity="center"
+                                        android:singleLine="true"
+                                        android:text="Yes"
+                                        android:textColor="#ffffffff"
+                                        android:textSize="20.0sp"
+                                        app:outerShadowColor="#2c000000"
+                                        app:outerShadowDx="6.0dip"
+                                        app:outerShadowDy="6.0dip"
+                                        app:outerShadowRadius="1.0dip" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:weightSum="1.0">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.85"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="By Clicking on start you agree to our"
+                        android:textColor="#ffffffff"
+                        android:textColorLink="#ffffffff"
+                        android:textSize="14.0sp" />
+
+                    <TextView
+                        android:id="@+id/txt_privacy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+                        android:text="Privacy Policy"
+                        android:textColor="#fff0ff00"
+                        android:textColorLink="#fff0ff00"
+                        android:textSize="16.0sp" />
+                </LinearLayout>
+
+               <!-- <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.15">
+
+                    <RelativeLayout
+                        android:id="@+id/adView1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" />
+                </LinearLayout>-->
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ads_border" />-->
+</LinearLayout>

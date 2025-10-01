@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_changelanguage.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_home.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_main_default_theme.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_main_theme_1.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_main_theme_2.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_main_theme_3.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_main_theme_4.xml" value="0.34923076923076923" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_main_theme_5.xml" value="0.34923076923076923" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/activity_main_theme_6.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/adview_layout_exit1.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/color_item.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/color_preference_widget.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/custom_activity_items_.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/custom_activity_list_.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/custom_gridview_items.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/custom_gridview_sub_items_.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/dialog_color_picker.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/dialog_edititem.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/predefined_activity_item_.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/predefined_activity_list_.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/predefined_activity_list_1.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/predefined_gridview_items.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/predefined_gridview_sub_items.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/preference.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/preference_category.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/preference_dialog_edittext.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/preference_information.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/preference_list_fragment.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/preference_widget_checkbox.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/preference_widget_switch_compat.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/privacy_policy.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/rate_dialog.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/splashactivity.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/taptostart_activity2.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/layout/wallet_test_layout.xml" value="0.3546875" />
+        <entry key="..\:/Users/Duong/Desktop/CopySpin/app/src/main/res/menu/menu_main.xml" value="0.3546875" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

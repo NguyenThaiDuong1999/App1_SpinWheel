@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:id="@+id/rlResult"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/imgGifBgHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <com.random.lucky.spin.wheel.randompicker.custom_view.OutlineTextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/linotte_regular"
+                android:gravity="center"
+                android:maxLines="2"
+                android:padding="10.0dip"
+                android:shadowColor="@color/txt_result_shadown"
+                android:shadowDx="6.0"
+                android:shadowDy="6.0"
+                android:text="abc"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@color/color_toast"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:outlineColor="@color/txt_result_stroker"
+                app:outlineWidth="2.0sp" />
+
+            <!--<TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="abc"
+                android:textColor="@color/color_toast"
+                android:textSize="35sp" />-->
+
+            <!--<TextView
+                android:id="@+id/txtResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:maxLines="2"
+                android:text="abc"
+                android:textColor="@color/color_result"
+                android:textSize="40sp" />-->
+
+            <com.random.lucky.spin.wheel.randompicker.custom_view.OutlineTextView
+                android:id="@+id/txtResult"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:ellipsize="end"
+                android:fontFamily="@font/linotte_regular"
+                android:gravity="center"
+                android:maxLines="3"
+                android:padding="10.0dip"
+                android:shadowColor="@color/txt_result_shadown"
+                android:shadowDx="6.0"
+                android:shadowDy="6.0"
+                android:text="abc"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="#ffee3a45"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:outlineColor="@color/txt_result_stroker"
+                app:outlineWidth="2.0sp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

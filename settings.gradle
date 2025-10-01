@@ -1,0 +1,6 @@
+rootProject.name = "CopySpin"
+include ':app'
+include ':colorpicker'
+gradle.ext.useLocalLibrary = false
+gradle.ext.useRemoteLibrary = false
+gradle.ext.isDebuggable = true

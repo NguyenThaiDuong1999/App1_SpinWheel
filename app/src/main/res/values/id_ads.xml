@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="facebook_app_id" translatable="false">1479389663003646</string>
+    <string name="facebook_client_token" translatable="false">f224983fb6305ed1609f185e934a537f</string>
+</resources>
