@@ -13,7 +13,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.random.lucky.spin.wheel.randompicker.R;
-import com.random.lucky.spin.wheel.randompicker.remote_config.SharePrefRemote;
 import com.random.lucky.spin.wheel.randompicker.room_database.SpinWheelModel;
 
 import java.util.ArrayList;
@@ -47,11 +46,7 @@ public class DefaultSpinWheelAdapter extends RecyclerView.Adapter<RecyclerView.V
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         if (holder instanceof ViewHolder) {
             SpinWheelModel spinWheelModel = listSpinWheelModel.get(position);
-            if (position % 2 == 0 && SharePrefRemote.get_config(context, SharePrefRemote.rewarded_predefined)) {
-                ((ViewHolder) holder).imgVip.setVisibility(View.VISIBLE);
-            } else {
-                ((ViewHolder) holder).imgVip.setVisibility(View.GONE);
-            }
+            ((ViewHolder) holder).imgVip.setVisibility(View.GONE);
             holder.itemView.setBackgroundResource(spinWheelModel.getImgBackground());
             ((ViewHolder) holder).imgPreview.setImageResource(spinWheelModel.getImgPreview());
             ((ViewHolder) holder).tvSpinWheelName.setText(spinWheelModel.getName());
